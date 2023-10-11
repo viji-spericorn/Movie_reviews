@@ -22,7 +22,7 @@ const toastConfig = {
 
 const App = () => {
   const dispatch = useDispatch();
-
+console.log("test");
   const { successMessage, errorMessage } = useSelector(
     (state) => state.reducer
   );
