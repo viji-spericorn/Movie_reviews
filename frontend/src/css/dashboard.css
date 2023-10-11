@@ -1,0 +1,27 @@
+.dashboard{
+    color:white
+}
+.input-nav {
+    margin-left: 5rem !important;
+    width: 100;
+  }
+
+  @media (max-width: 920px) {
+    .input-nav {
+      display: none;
+    }
+  }
+
+.navicon{
+    margin-left: 50%;
+}
+.backimage{
+  background-image: url("https://static1.s123-cdn-static-a.com/uploads/1064024/2000_5ac9e89bc6d23.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.stylenav{
+ height: 10%;
+}

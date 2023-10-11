@@ -1,0 +1,119 @@
+
+.header{
+    background-image: url('https://preview.colorlib.com/theme/agenda/images/header-bg.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+
+.logo{
+    
+    margin-left: 28px;
+}
+.lists{
+    margin-left: 2%;
+}
+.list{
+    margin-left: 3%;
+}
+.btn{
+    margin-left:600px;
+    background: rgb(145, 52, 231);
+    font-size: 14px;
+}
+.headings{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    color: aliceblue;
+    margin-top: 21%;
+    letter-spacing: 5px;
+    font-style: oblique;
+}
+
+/* about us section */
+
+.containerabout{
+    margin-top: 8%;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+
+.about .image{
+    width: 75%;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+}
+
+.about .content{
+    padding:1rem;
+}
+
+.about .content h2{
+    font-size: 48px;
+}
+
+.about .content p{
+    font-size: 18px;
+    color:#666;
+    padding:1rem 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+.p{
+    font-style: oblique;
+ 
+}
+
+.partners{
+    background-image: url('https://preview.colorlib.com/theme/agenda/images/regional-events-bg.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.partnerheadings{
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
+
+
+/* footer section */
+.site-footer {
+    padding: 30px 0;
+    background: #08011e;
+    text-align: center;
+}
+figure {
+    margin: 0 0 1rem;
+}
+
+.footer-navigation ul, .footer-social ul {
+    padding: 3px;
+    margin: 32px 0 0;
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+.footer-navigation li{
+    margin-left: 10px;
+}
+.footer-social li{
+    font-size: 1rem;
+    margin-left: 10px;
+}
